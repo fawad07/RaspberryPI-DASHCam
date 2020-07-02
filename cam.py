@@ -51,7 +51,7 @@ def camera_record():
     #cam=PiCamera();
     cam.rotation = 90;
     cam.sharpness = 100;
-    cam.zoom(70,80, 1, 1)
+    cam.zoom=(0.25,0.5, 0.5, 0.5);
     cam.resolution = (1024, 768);
     cam.start_recording('/home/pi/Desktop/test.h264');
     cam.preview_fullscreen=False
