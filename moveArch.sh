@@ -3,7 +3,7 @@
 #!/bin/bash
 
 dir="/home/pi/Videos"	#/sharpTest.py";
-remoteDevice="fawad@0.0.0.0.0:";	#place ip address when needed 
+remoteDevice="user_name@IP_ADDRESS:";	#place ip address & user name when needed 
 remoteDir="/home/fawad/Videos/DashCam_Arch";
 if [ -d "$dir" ];	#! sign issue
 then
