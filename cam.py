@@ -50,15 +50,17 @@ def camera_take_pic():
 def camera_record():
     #cam=PiCamera();
     cam.rotation = 90;
-    cam.sharpness = 100;
-    cam.zoom=(0.25,0.5, 0.5, 0.5);
+    cam.sharpness = 76;
+    cam.brightness = 46;
+    cam.framerate = 60
+    cam.zoom=(0.03,0.03, 0.7, 0.5);
     cam.resolution = (1024, 768);
     cam.start_recording('/home/pi/Desktop/test.h264');
     cam.preview_fullscreen=False
     cam.preview_window=(10,40, 300,200)
     cam.start_preview();
     cam.annotate_text = time
-    cam.wait_recording(1);
+    cam.wait_recording(0.05);
     #cam.stop_recording();
     #cam.close();
 
