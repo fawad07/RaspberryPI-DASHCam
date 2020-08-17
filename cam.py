@@ -81,24 +81,3 @@ def close_window():
 if __name__ == "__main__":
     main()
 
-#dialog.geometry("300x275+5+5")
-#btn_frame=tk.Frame(dialog)
-#btn_frame.pack(fill=tk.X, side=tk.BOTTOM)
-
-#pic_btn=tk.Button(btn_frame, text="take pic", command=camera_take_pic)
-#pic_btn.grid(row=0, column=0, sticky=tk.W+tk.E)
-#pic_btn.pack()
-
-#vid_rec_btn=tk.Button(btn_frame, text="record", command=camera_record)
-#vid_rec_btn.grid(row=0, column=1, sticky=tk.W+tk.E)
-#vid_btn.pack()
-#stop_vid_rec=tk.Button(btn_frame, text="Stop recording", command=stop_record)
-#stop_vid_rec.grid(row=1, column=1, sticky=tk.W+tk.E)
-
-#close_btn=tk.Button(btn_frame, text="Close", command=close_window)
-#close_btn.grid(row=0, column=2, sticky=tk.W+tk.E)
-
-#btn_frame.columnconfigure(0, weight=1)
-#btn_frame.columnconfigure(1, weight=1)
-#btn_frame.columnconfigure(2, weight=1)
-#tk.mainloop();
