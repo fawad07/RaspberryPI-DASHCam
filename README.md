@@ -18,3 +18,12 @@ sudo systemctl daemon-reload
 sudo systemctl enable dashcam.service
 sudo systemctl start dashcam.service
 ```
+# How to Enable Camera Interface
+```yml
+sudo raspi-config
+```
+# Test Camera
+```yml
+raspistill -o l
+```
+
