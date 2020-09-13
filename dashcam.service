@@ -1,0 +1,16 @@
+[Unit]
+Description=Super Secure Dashcam
+After=multi-user.target
+
+[Service]
+#ExecStart=/usr/bin/python3 /home/pi/blink.py
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=/home/pi/.Xauthority
+ExecStart=/home/pi/workspace/python/RaspberryPI-DASHCam/run.sh
+Restart=always
+RestartSec=10s
+KillMode=process
+TimeoutSec=infinity
+
+[Install]
+WantedBy=graphical.target

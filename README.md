@@ -13,7 +13,7 @@ PART-1
 # How to start dashcam on startup
 
 ```yml
-sudo mv dashcam.service /lib/systemd/system/
+sudo cp dashcam.service /lib/systemd/system/
 sudo systemctl daemon-reload
 sudo systemctl enable dashcam.service
 sudo systemctl start dashcam.service
