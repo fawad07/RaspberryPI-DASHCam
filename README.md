@@ -10,3 +10,11 @@ PART-1
 2. source env/bin/activate <-- enter in python enviroment
 3. deactivate <-- moved out of python enviroment
 
+# How to start dashcam on startup
+
+```yml
+sudo mv dashcam.service /lib/systemd/system/
+sudo systemctl daemon-reload
+sudo systemctl enable dashcam.service
+sudo systemctl start dashcam.service
+```
