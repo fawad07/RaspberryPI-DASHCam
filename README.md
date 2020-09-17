@@ -16,7 +16,6 @@ sudo apt-get dist-upgrade
 1. python3 -m venv env
 2. source env/bin/activate <-- enter in python enviroment
 3. deactivate <-- moved out of python enviroment
-```yml
 
 # How to start dashcam on startup
 
