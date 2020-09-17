@@ -5,10 +5,18 @@ RaspberryPi camera Module used to record video
 Gui(Tkinter module) implemented using python programming
 bash script used to start the application on start up of the raspberryPi
 
-PART-1
+#BEFORE YOU START - UPDATE & UPGRADE RaspberryPi
+```yml
+sudo apt-get update
+sudo apt-get dist-upgrade
+```yml
+
+#PART-1
+```yml
 1. python3 -m venv env
 2. source env/bin/activate <-- enter in python enviroment
 3. deactivate <-- moved out of python enviroment
+```yml
 
 # How to start dashcam on startup
 
